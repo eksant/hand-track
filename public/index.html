@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hand Track</title>
+    <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  </head>
+  <body class="bx--body p20">
+    <div class="p20">
+      Hand Track
+    </div>
+
+    <div class="mb10">
+      <button id="trackbutton" class="bx--btn bx--btn--secondary" type="button" disabled>
+        Toggle Video
+      </button>
+      <div id="updatenote" class="updatenote mt10">loading model ..</div>
+    </div>
+
+    <video id="myvideo" class="videobox canvasbox" autoplay="autoplay"></video>
+    <canvas id="canvas" class="border canvasbox"></canvas>
+
+    <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs@latest/dist/handtrack.min.js"></script>
+    <!-- <script src="/assets/js/handTrack.js"></script> -->
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

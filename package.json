@@ -1,0 +1,17 @@
+{
+  "name": "hand-track",
+  "version": "0.0.1",
+  "description": "Hand gestures",
+  "main": "server.js",
+  "repository": "git@github.com:eksant/hand-track.git",
+  "author": "eksant <eksant@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.2.6",
+    "express": "^4.17.1"
+  }
+}
